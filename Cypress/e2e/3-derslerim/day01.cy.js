@@ -32,6 +32,10 @@ it('user selects first product', () => {
 
 });
 
+it('user returns to previous page', () => {
+    cy.go('back'); // bu sayfayı bir önceki sayfaya geri döndürür.
+    cy.go('forward'); // tarayıcıda bir adım ileri gitmek için kullanılır
+});
 
 
 })
